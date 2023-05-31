@@ -1,0 +1,294 @@
+body{
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+header{
+  background: url("images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 5.2rem 0;
+}
+
+.logo{
+  height: 100px;
+  width: 100px;
+  padding: 1rem 0;
+}
+
+.header-details{
+  width: 40%;
+  margin: 0 auto;
+}
+
+.history{
+  font-size: 32px;
+}
+
+.clipboard{
+  font-size: 15px;
+  opacity: 0.6;
+
+}
+
+.download{
+  font-size: 14px;
+  border: none;
+  padding: 0.5rem 1.1rem;
+  border-radius: 15px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.ios{
+  background-color: #0be99f;
+}
+
+.mac{
+  background-color:#0da4d5;
+}
+
+.snippets{
+  padding-top: 2.5rem;
+}
+
+.monitor-section{
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+  width: 90%;
+  position: relative;    
+}
+
+.computer{
+  height: 60vh; 
+}
+
+.clipboard-info{
+  width: 20%;
+}
+
+.one{
+  padding-top: 45px
+}
+
+.info-section{
+  padding-bottom: 15px;
+}
+
+.info-headline{
+  font-size: 18px;
+}
+
+.info-article{
+  font-size: 15px;
+  opacity: 0.5;
+}
+
+.access-section{
+  padding: 25px;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.access{
+  font-size: 25px;
+  padding-top: 50px;
+}
+
+.access-note{
+	padding: 0 30px;
+}
+
+.tablet{
+  width: 90%; 
+	margin: 0 auto; 
+}
+
+.card--section{
+  display: flex;
+  justify-content: space-between ;
+  width: 80%;margin: 0 auto;
+  gap: 15px;
+  padding: 20px;
+    
+
+}
+
+.card{
+  width: 32%;
+  text-align: center;
+  padding: 35px 40px;
+}
+
+.card-name{
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.card-article{
+  font-size: 16px;
+  opacity: 0.5;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.partnership-logo{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 30px;
+  padding: 90px 0;
+}
+
+.forIOS{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.clipboard--OS{
+  font-size: 25px;
+}
+
+.available_OS{
+  font-size: 18px;
+  padding: 12px 25px;
+  opacity: 0.5;
+}
+
+#btnDownload{
+  font-size: 16px;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 22px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.download-section{
+  padding: 50px 0 180px 0;
+  text-align: center;
+} 
+
+.footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto;
+	padding: 1.5rem 4em;
+	background-color: rgb(247 238 238);
+	gap: 15px;
+}
+
+.footer-logo{
+  width: 50px;
+  height: 50px;
+}
+
+.footer-col{
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.socialmedia-icon{
+  color: rgb(68, 67, 67);
+  text-decoration: none;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  margin: 0 10px 10px 0;
+}
+
+.socialmedia-icon:hover, .footer-col-details:hover{
+  color: rgb(60, 203, 250);
+  transition: all 0.5s ease;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 920px) {
+  body{
+    margin: 0 auto;
+  }
+
+  .download{
+    display: block;
+  }
+
+  .ios{
+    margin: 20px auto;
+  }
+
+  .monitor-section{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 75%;
+  }
+
+  .computer{
+    width: 100%;
+    height: 40vh;
+  }
+
+  .clipboard-info{
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .tablet{
+    width: 100%;
+  }
+
+  .card--section, .partnership-logo{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .card{
+    margin: 0 auto;
+  }
+  .component-logo{
+    display: block;
+    padding: 35px;
+    text-align: center;
+  }
+
+  #btnDownload{
+    display: block;
+    width: 65%;
+    margin: 20px auto;
+  }
+
+  .download-section{
+    padding: 50px 0 80px 0;
+  }
+
+  .footer{
+    display: block;
+    text-align: center;
+    padding-top: 35px ;
+  }
+
+  .footer-col{
+    display: block;
+    text-align: center;
+    margin: 0  auto;
+    padding-bottom: 20px;
+  }
+
+  .footer-col-details{
+    padding: 10px;
+  }
+
+  .footer-socials{
+    padding-top: 12px; 
+  }
+}
